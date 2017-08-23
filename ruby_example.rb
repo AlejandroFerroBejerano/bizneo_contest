@@ -1,5 +1,6 @@
 # Carga de los ficheros de configuración
 require 'capybara'
+require 'capybara/dsl'
 include Capybara::DSL
 
 # Inicializamos Capybara
